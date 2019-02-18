@@ -5,20 +5,16 @@
 cash <amount> <ActualCurrency> <TargetCurrencies[]>
   The function can take several arguments.
 
-* amount 
-  
-  The amount represent the value we want to convert.
-  
+* amount    
+  The amount represent the value we want to convert.       
   **Should be filled
 
-* ActualCurrency 
-
-  The currency we want to convert.
+* ActualCurrency   
+  The currency we want to convert.     
   **If not filled, the default ActualCurrency will be used.
 
-* TargetCurrencies[] 
-
-  List of the currencies we would like the amount of ActualCurrency to be converted to.
+* TargetCurrencies[]        
+  List of the currencies we would like the amount of ActualCurrency to be converted to.      
   **If not filled, the default TargetCurrencies will be used.
 
 ## Flag
