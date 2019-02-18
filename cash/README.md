@@ -2,7 +2,7 @@
 
 
 ## Function
-cash <amount> <ActualCurrency> <TargetCurrencies[]>
+`cash <amount> <ActualCurrency> <TargetCurrencies[]>`
   The function can take several arguments.
 
 * amount    
@@ -20,12 +20,12 @@ cash <amount> <ActualCurrency> <TargetCurrencies[]>
 ## Flag
 
 * -s
-  cash -s <ActualCurrency> <TargetCurrencies[]>   
+  `cash -s <ActualCurrency> <TargetCurrencies[]>`   
   The flag -s can modified and save the default currencies.     
   The ActualCurrency will be the new default currency and the TargetCurrencies will be the new default TargetCurrencies.
   
  
 * --set
-  'cash --set <ActualCurrency> <TargetCurrencies[]>'   
+  `cash --set <ActualCurrency> <TargetCurrencies[]>`   
   Gives the change rate of the ActualCurrency for all the TargetCurrencies.    
-  Sames result as 'cash 1  <ActualCurrency> <TargetCurrencies[]>'
+  Sames result as `cash 1  <ActualCurrency> <TargetCurrencies[]>`
