@@ -24,12 +24,12 @@ describe('starwars-names', () => {
 
   describe('random', () => {
     test('should return a random item from the starWars.all', () => {
-      expect(starWarsNames).toContain(starwars.random())
+      expect(starWarsNames).toContain(starWars.random())
     });
 
     test('should return an array of random items if passed a number', () => {
-      var random = getRandom(0,starWarsNames);
-      expect(starWarsNames).toEqual(expect.arrayContaining(starWars.random(random)))
+      var r = Math.floor(Math.random() * starWarsNames.length);
+      expect(starWarsNames).toEqual(expect.arrayContaining(starWars.random(r)))
     });
   });
 });
