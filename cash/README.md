@@ -12,7 +12,8 @@
 To run the program:
 `node bin/index.js <amount> <ActualCurrency> <TargetCurrencies[]>`      
   
-The function can take several arguments:     
+The function can take several arguments: 
+
       * amount    
         The amount represent the value we want to convert.       
         **Should be filled.**
