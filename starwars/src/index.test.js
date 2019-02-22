@@ -17,7 +17,8 @@ describe('starwars-names', () => {
     });
 
     test('should not contain `Ben Quadinaros`', () => {
-      throw new Error('test not yet defined... remove the throw and write your test here');
+      //throw new Error('test not yet defined... remove the throw and write your test here');
+      expect(starWarsNames).not.toContain('Ben Quadinaros')
     });
   });
 
