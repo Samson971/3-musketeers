@@ -13,7 +13,7 @@ describe('starwars-names', () => {
 
     test('should contain `Luke Skywalker`', () => {
       //throw new Error('test not yet defined... remove the throw and write your test here');
-      expect(starwars.all).toHave("Luke Skywalker")
+      expect(starwars.all).toContain("Luke Skywalker")
     });
 
     test('should not contain `Ben Quadinaros`', () => {
