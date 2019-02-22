@@ -34,12 +34,12 @@ The function can take several arguments:
 ## Flag
 
 * -s      
-  `cash -s <ActualCurrency> <TargetCurrencies[]>`   
+  `node bin/index.js -s <ActualCurrency> <TargetCurrencies[]>`   
   The flag -s can modified and save the default currencies.     
   The ActualCurrency will be the new default currency and the TargetCurrencies will be the new default TargetCurrencies.
   
  
 * --set       
-  `cash --set <ActualCurrency> <TargetCurrencies[]>`   
+  `node bin/index.js --set <ActualCurrency> <TargetCurrencies[]>`   
   Gives the change rate of the ActualCurrency for all the TargetCurrencies.    
-  Same result as `cash 1  <ActualCurrency> <TargetCurrencies[]>`
+  Same result as `node bin/index.js 1  <ActualCurrency> <TargetCurrencies[]>`
