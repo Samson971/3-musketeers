@@ -28,7 +28,7 @@ The function can take several arguments:
 
 
  ### Remarks
- If there is no arguments, the program will run with 1 unit of the Default ActualCurrency to the Default TargetCurrencies[] (USD to USD,  GBP, EUR, JPY when the program starts).     
+ If there is no arguments, the program will run with 1 unit of the Default ActualCurrency to the Default TargetCurrencies[] (see the config.json file to see the default currencies).     
  If the amount is not filled but there one or several currencies in arguments, the first one will be ignored and the fixed amount will be 1 unit of the second/default currency.
 
 ## Flag
