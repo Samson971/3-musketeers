@@ -27,7 +27,7 @@ The function can take several arguments:
     **If not filled, the default TargetCurrencies will be used.**
 
 
- ##### Remarks
+ #### Remarks
  If there is no arguments, the program will run with 1 unit of the Default ActualCurrency to the Default TargetCurrencies[] (see the config.json file to see the default currencies).     
  If the amount is not filled but there one or several currencies in arguments, the first one will be ignored and the fixed amount will be 1 unit of the second/default currency.
 
